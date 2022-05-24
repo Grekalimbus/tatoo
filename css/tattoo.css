@@ -39,19 +39,21 @@
 	overflow: hidden;
 	display: flex;
   	flex-direction: column;
-	  font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	position: relative;
+	z-index: 0;
+	
 }
 .container{
 	width: 1400px;
 	margin: 0 auto;
-	
-	border: 1px solid rgb(202, 202, 202);
-	
 }
 
 .header{
 	margin: 25px 0 0 0;
 	background: linear-gradient(360deg, rgba(71, 19, 96, 0) -53.9%, rgba(79, 0, 116, 0.53) 39.72%, rgba(34, 6, 48, 0) 164.39%);
+	position: relative;
+	z-index: 2;
 }
 .flex__container__header{
 	display: flex;
@@ -103,6 +105,8 @@
 
 .section__too{
 	margin: 115px 0 0 0;
+	position: relative;
+	z-index: 2;
 }
 
 .section_too_flex_box{
@@ -238,11 +242,12 @@ border-radius: 14px;
 .section__three{
 	margin: 155px 0 0 0;
 	background: linear-gradient(0.86deg, #1B002D -43.62%, rgba(27, 0, 45, 0) 99.27%);
+	position: relative;
+	z-index: 2;
 }
 
 .center_logo img{
 	display: block;
-	border: 1px solid #E8DFC8;
 	width: 523px;
 	margin: 0 auto;
 }
@@ -266,8 +271,6 @@ border-radius: 14px;
 
 .info_photo_elements{
 	display: flex;
-	border: 1px solid #E8DFC8;
-	
 }
 .three_foto_elements{
 	margin-top: 170px;
@@ -276,9 +279,7 @@ border-radius: 14px;
 	display: flex;
 	flex: 1 0 777px;
 	width: 777px;
-	border: 1px solid #E8DFC8;
 	margin: 0 0 50px 0;
-	
 }
 .image_text_right{}
 .joint_text{
@@ -331,9 +332,7 @@ border-radius: 14px;
 
 .right_elements{
 	margin-top: 120px;
-	border: 1px solid #E8DFC8;
 	margin-left: 100px;
-		
 }
 .tittle_info_personal{
 	font-size: 36px;
@@ -388,7 +387,10 @@ border-radius: 14px;
 
 /* section foo start */
 
-.section_foo{}
+.section_foo{
+	position: relative;
+	z-index: 2;
+}
 .tittle_instrument{
 	font-size: 40px;
 	line-height: 49px;
@@ -413,7 +415,7 @@ border-radius: 14px;
 	width: 1144px;
 	margin: 0 auto;
 	margin-top: 120px;
-}
+	}
 
 .instrument_and_text{
 	display: flex;
@@ -487,6 +489,8 @@ height: 250px;
 /* footer start */
 .footer{
 	background: linear-gradient(180deg, rgba(127, 2, 138, 0.79) -80.42%, rgba(127, 2, 138, 0) 100%);
+	position: relative;
+	z-index: 2;
 }
 
 .footer_flex_box{
@@ -524,3 +528,25 @@ height: 250px;
 }
 
 /* footer end */
+
+.fon_photo{
+	
+}
+.image_one_fon{
+	position: absolute;
+	z-index: 0;
+	top: 0px;
+	left: 700px;
+}
+.image_too_fon{
+	position: absolute;
+	z-index: 0;
+	top: 800px;
+	left: 250px;
+}
+.image_three_fon{
+	position: absolute;
+	z-index: 0;
+	top: 1700px;
+	left: 800px;
+}
