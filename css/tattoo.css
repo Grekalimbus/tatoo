@@ -44,9 +44,9 @@
 .container{
 	width: 1400px;
 	margin: 0 auto;
-	/*
+	
 	border: 1px solid rgb(202, 202, 202);
-	*/
+	
 }
 
 .header{
@@ -152,6 +152,11 @@
 	width: 397.68px;
 	padding-bottom: 8px;
 }
+.menu_list li:hover{
+	text-shadow: rgb(195, 0, 212) 3px 0 20px;
+	margin: 10px 0 0 5px;
+
+}
 
 .big_info_title{
 	width: 577px;
@@ -227,3 +232,112 @@ border-radius: 14px;
 	box-shadow: 2px 0px 19px 3px rgba(190, 3, 234, 0.91);
 	margin: 3px 0 0 3px;
 }
+
+/* section three */
+
+.section__three{
+	margin: 155px 0 0 0;
+}
+
+.center_logo img{
+	display: block;
+	border: 1px solid #E8DFC8;
+	width: 523px;
+	margin: 0 auto;
+}
+
+.menu_under_logo{
+	
+}
+.list_under{
+	display:flex;
+	justify-content: space-between;
+	margin: 56px 0 0 0;
+	font-size: 32px;
+	line-height: 39px;
+	letter-spacing: 0.255em;
+	color: #F267ED;
+}
+.list_under li:hover{
+	text-shadow: rgb(195, 0, 212) 3px 0 20px;
+	margin: 3px 0 0 3px;
+}
+
+.info_photo_elements{
+	display: flex;
+}
+.three_foto_elements{
+	margin-top: 170px;
+	
+}
+.photo_text_elements{
+	display: flex;
+	border: 1px solid #E8DFC8;
+	margin: 0 0 50px 0;
+}
+.image_text_right{}
+.joint_text{}
+.tittle_name{
+	font-size: 28px;
+	line-height: 34px;
+	letter-spacing: 0.08em;
+	color: #F267ED;
+	text-shadow: 4px 6px 0px rgba(0, 0, 0, 0.09);
+}
+.under_tittle_name{
+	font-size: 14px;
+	line-height: 17px;
+	letter-spacing: 0.08em;
+	color: rgba(242, 103, 237, 0.64);
+	text-shadow: 0px 8px 4px rgba(0, 0, 0, 0.65);
+}
+
+.right_elements{
+	margin-top: 120px;
+	margin-left: 150px;
+}
+.tittle_info_personal{
+	font-size: 36px;
+	line-height: 113.4%;
+	letter-spacing: 0.075em;
+	color: #F359EE;
+	text-shadow: 0px 15px 4px rgba(0, 0, 0, 0.35);
+	margin: 0 0 35px 0;
+}
+.text_info_personal{
+	font-size: 24px;
+	line-height: 143.4%;
+	letter-spacing: 0.075em;
+	color: #F267ED;
+	
+}
+
+.hard_flex_box{
+	display: flex;
+	margin: 50px 0 0 0;
+}
+.tittle_insta_foto{}
+.title_danil{
+	font-size: 32px;
+	line-height: 113.4%;
+	letter-spacing: 0.075em;
+	color: #F359EE;
+	margin: 35px 0 40px 0;
+}
+.danilimbus{
+	font-size: 16px;
+	line-height: 111.9%;
+	letter-spacing: 0.355em;
+	color: #F267ED;
+	text-shadow: 5px 8px 4px rgba(0, 0, 0, 0.75);
+	margin: 35px 0 0 70px;
+}
+.list_text_insta{
+	margin: 40px 0 0 50px;
+	}
+.li_text_info{
+	font-size: 12px;
+	line-height: 500.4%;
+	letter-spacing: 0.075em;
+	color: #F267ED;
+	}
