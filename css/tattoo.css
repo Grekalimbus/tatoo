@@ -481,3 +481,46 @@ height: 250px;
 	width: 400px;
 height: 250px;
 }
+
+/* section foo end */
+
+/* footer start */
+.footer{
+	background: linear-gradient(180deg, rgba(127, 2, 138, 0.79) -80.42%, rgba(127, 2, 138, 0) 100%);
+}
+
+.footer_flex_box{
+	display: flex;
+	padding: 30px 0 30px 0;
+	justify-content: space-between;
+}
+.info_insta{
+	display: flex;
+}
+.info_insta img{
+	height: 40.31px;
+	width: 44.06px ;
+	margin: 7px 10px 0 0;
+}
+
+.insta_ikon_text{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.04em;
+	color: #F267ED;
+}
+
+.logo_img_footer{}
+
+.footer_email{
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.04em;
+	color: #FFFFFF;
+	margin: 18px 0 0 0;
+}
+
+/* footer end */
