@@ -59,8 +59,7 @@
 	
 }
 .logo_tattoo{
-		margin: 20px 0 0 0;
-	
+	margin: 20px 0 0 0;
 }
 
 .right__elements{
@@ -74,7 +73,6 @@
 .phone{
 	display: flex;
 	align-items: center;
-	
 }
 .phone::after{
 	content: url(../img/phone-ikon.png);
@@ -88,7 +86,6 @@
 	border-left: 3px solid #E8DFC8;
 	border-right: 3px solid #E8DFC8;
 	padding: 0 20px;
-	
 }
 .registr{
 	display: flex;
@@ -98,4 +95,136 @@
 .registr::after{
 	content: url(../img/user-ikon.png);
 	padding: 0 0 0 17px;
+}
+
+/*section 2 */
+
+.section__too{
+	margin: 115px 0 0 0;
+}
+
+.section_too_flex_box{
+	display: flex;
+}
+
+.menu_list{
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 22px;
+	color: rgba(242, 103, 237, 0.74);
+	
+	border: 1px solid #F359EE;
+}
+.menu_list li{
+	background: url(../img-section-too/menu.png)left no-repeat;
+	padding: 15px 0px 0 40px;
+	margin: 20px 0 0 0;
+	
+}
+.menu_list li:nth-child(1){
+	border-bottom: 3px solid #F359EE;
+	width: 208.5px;
+	padding-bottom: 8px;
+}
+.menu_list li:nth-child(2){
+	border-bottom: 3px solid #F359EE;
+	width: 291.35px;
+	padding-bottom: 8px;
+	
+}
+.menu_list li:nth-child(3){
+	border-bottom: 3px solid #F359EE;
+	width: 305.16px;
+	padding-bottom: 8px;
+}
+.menu_list li:nth-child(4){
+	border-bottom: 3px solid #F359EE;
+	width: 332.78px;
+	padding-bottom: 8px;
+}
+.menu_list li:nth-child(5){
+	border-bottom: 3px solid #F359EE;
+	width: 357.64px;
+	padding-bottom: 8px;
+}
+.menu_list li:nth-child(6){
+	border-bottom: 3px solid #F359EE;
+	width: 397.68px;
+	padding-bottom: 8px;
+}
+
+.big_info_title{
+	width: 577px;
+	border: 1px solid #F359EE;
+	margin: 0 100px 0 250px;
+	
+}
+.title_big{
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 59px;
+	color: #F359EE;
+	text-shadow: 0px 16px 4px rgba(0, 0, 0, 0.25);
+}
+.text_under{
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;
+	color: rgba(190, 60, 186, 0.49);
+	padding: 25px 0 0 0;
+}
+
+.ikons{
+	display: flex;
+	flex-direction: column;
+	
+	
+}
+.ikon_van{
+	padding: 0 0 90px 0;
+}
+.ikons img:nth-child(2){
+	padding: 0 0 25px 0;
+}
+.ikons img:nth-child(3){
+	padding: 0 0 25px 0;
+}
+
+.klick_elements{
+	display: flex;
+	justify-content: space-between;
+	margin: 175px 0 0 0;
+	
+}
+.klick_elements a{
+	width: 333px;
+height: 84px;
+background: rgba(243, 89, 238, 0.83);
+border-radius: 14px;
+}
+
+.klick_elements span{
+	display: block;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 24px;
+	color: #651681;
+	padding: 30px 0 0 0;
+}
+.span_van{
+	display: block;
+	margin: 0 0 0 95px;
+}
+.span_too{
+	display: block;
+	margin: 0 0 0 85px;
+}
+.span_three{
+	display: block;
+	margin: 0 0 0 130px;
+}
+
+.klik_hover:hover{
+	box-shadow: 2px 0px 19px 3px rgba(190, 3, 234, 0.91);
+	margin: 3px 0 0 3px;
 }
