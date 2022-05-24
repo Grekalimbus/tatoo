@@ -237,6 +237,7 @@ border-radius: 14px;
 
 .section__three{
 	margin: 155px 0 0 0;
+	background: linear-gradient(0.86deg, #1B002D -43.62%, rgba(27, 0, 45, 0) 99.27%);
 }
 
 .center_logo img{
@@ -265,6 +266,7 @@ border-radius: 14px;
 
 .info_photo_elements{
 	display: flex;
+	border: 1px solid #E8DFC8;
 	
 }
 .three_foto_elements{
@@ -273,9 +275,10 @@ border-radius: 14px;
 .photo_text_elements{
 	display: flex;
 	flex: 1 0 777px;
+	width: 777px;
 	border: 1px solid #E8DFC8;
 	margin: 0 0 50px 0;
-	width: 777px;
+	
 }
 .image_text_right{}
 .joint_text{
@@ -380,4 +383,101 @@ border-radius: 14px;
 	line-height: 330.4%;
 	letter-spacing: 0.075em;
 	color: #F267ED;
-	}
+}
+/* section three end */
+
+/* section foo start */
+
+.section_foo{}
+.tittle_instrument{
+	font-size: 40px;
+	line-height: 49px;
+	letter-spacing: 0.255em;
+	color: #F267ED;
+	text-align: center;
+	margin-top: 60px;
+}
+.tittle_instrument::after{
+	content: url(../img-section-foo/logo-too-removebg-preview\ 2.png);
+	padding-left: 55px;
+}
+.tittle_instrument::before{
+	content: url(../img-section-foo/logo-too-removebg-preview\ 2.png);
+	padding-right: 55px;
+}
+
+.flex_box_instrument_info{
+	background: #390949;
+	box-shadow: 6px 10px 4px rgba(0, 0, 0, 0.45);
+	border-radius: 39px;
+	width: 1144px;
+	margin: 0 auto;
+	margin-top: 120px;
+}
+
+.instrument_and_text{
+	display: flex;
+}
+.image_vlad_blad{
+	width: 371px;
+	height: 362px;
+	background: #25052B;
+	border-radius: 26px;
+	margin: 30px 0 0 30px;
+}
+.image_vlad_blad img{
+	margin: 20px 0 0 20px;
+}
+.tittle_liner{
+	font-size: 24px;
+	line-height: 29px;
+	color: #F267ED;
+	margin: 20px 0 0 20px;
+}
+
+.big_text_info{
+	font-size: 14px;
+	line-height: 15px;
+	color: #F267ED;
+	text-shadow: 0px 12px 4px rgba(0, 0, 0, 0.55);
+	width: 665px;
+	height: 314px;
+	margin: 33px 0 0 30px;
+}
+.big_text_info p{
+	margin: 0 0 20px 0;
+}
+.big_text_info p:last-child{
+	margin: 0;
+}
+
+.copy_elements_blad{
+	display: flex;
+	justify-content: space-around;
+	width: 1093px;
+	margin: 0 auto;
+	margin-top: 65px;
+	flex: 1 1 auto;
+	align-items: center;
+	padding: 0 0 20px 0;
+	margin-bottom: 120px;
+}
+.too_blad_img_text img{
+	margin: 0 0 0 12px;
+}
+.VLAD_BLAD{
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.865em;
+	color: #FFFFFF;
+	text-align: center;
+}
+.blad_img_one{
+	width: 400px;
+height: 250px;
+}
+
+.blad_img_three{
+	width: 400px;
+height: 250px;
+}
