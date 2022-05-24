@@ -44,7 +44,9 @@
 .container{
 	width: 1400px;
 	margin: 0 auto;
+	/*
 	border: 1px solid rgb(202, 202, 202);
+	*/
 }
 
 .header{
@@ -112,8 +114,6 @@
 	font-size: 18px;
 	line-height: 22px;
 	color: rgba(242, 103, 237, 0.74);
-	
-	border: 1px solid #F359EE;
 }
 .menu_list li{
 	background: url(../img-section-too/menu.png)left no-repeat;
@@ -155,7 +155,6 @@
 
 .big_info_title{
 	width: 577px;
-	border: 1px solid #F359EE;
 	margin: 0 100px 0 250px;
 	
 }
